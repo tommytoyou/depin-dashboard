@@ -48,24 +48,33 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    console.log('useEffect triggered - Fetch starting');
     async function fetchPrices() {
       try {
         const res = await fetch('/.netlify/functions/prices');
+        console.log('Fetch response status:', res.status, res.ok);
         if (!res.ok) throw new Error('Failed to fetch');
         const data = await res.json();
+        console.log('Full API response:', JSON.stringify(data, null, 2));
+        console.log('data.tokens:', data.tokens);
+        console.log('data.category:', data.category);
         const enrichedTokens = data.tokens.map(t => ({
           ...t,
           category: TOKEN_META[t.id]?.category || 'Other',
           color: TOKEN_META[t.id]?.color || C.accent,
         }));
+        console.log('Enriched tokens:', enrichedTokens);
         setTokens(enrichedTokens);
         if (data.category) {
           setCategory(data.category);
         }
+        console.log('State updates called - tokens:', enrichedTokens.length, 'category:', data.category);
       } catch (err) {
         console.error('Error fetching prices:', err);
+        console.error('Error details:', err.message, err.stack);
       } finally {
         setLoading(false);
+        console.log('Loading set to false');
       }
     }
     fetchPrices();
