@@ -1,0 +1,27 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e17"/>
+      <stop offset="100%" style="stop-color:#1a2234"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="950" cy="315" r="180" fill="#111827" stroke="#2d3748" stroke-width="2"/>
+  <circle cx="950" cy="315" r="120" fill="none" stroke="#8b5cf6" stroke-width="24" stroke-dasharray="188 377"/>
+  <circle cx="950" cy="315" r="120" fill="none" stroke="#10b981" stroke-width="24" stroke-dasharray="126 440" stroke-dashoffset="-188"/>
+  <circle cx="950" cy="315" r="120" fill="none" stroke="#06b6d4" stroke-width="24" stroke-dasharray="63 690" stroke-dashoffset="-314"/>
+  <circle cx="950" cy="315" r="80" fill="#1a2234"/>
+  <text x="950" y="325" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="28" font-weight="bold">DePIN</text>
+  <text x="80" y="260" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="56" font-weight="bold">DePIN Sector</text>
+  <text x="80" y="330" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="56" font-weight="bold">Intelligence</text>
+  <text x="80" y="400" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="28">Live market data for Decentralized</text>
+  <text x="80" y="440" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="28">Physical Infrastructure tokens</text>
+  <rect x="80" y="500" width="12" height="12" rx="6" fill="#8b5cf6"/>
+  <text x="100" y="512" fill="#64748b" font-family="system-ui, sans-serif" font-size="16">Compute</text>
+  <rect x="200" y="500" width="12" height="12" rx="6" fill="#10b981"/>
+  <text x="220" y="512" fill="#64748b" font-family="system-ui, sans-serif" font-size="16">Storage</text>
+  <rect x="320" y="500" width="12" height="12" rx="6" fill="#06b6d4"/>
+  <text x="340" y="512" fill="#64748b" font-family="system-ui, sans-serif" font-size="16">Wireless</text>
+  <rect x="440" y="500" width="12" height="12" rx="6" fill="#f59e0b"/>
+  <text x="460" y="512" fill="#64748b" font-family="system-ui, sans-serif" font-size="16">IoT</text>
+</svg>
