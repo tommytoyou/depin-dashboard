@@ -132,7 +132,7 @@ export default function App() {
             <div style={{ background:C.bgCard, border:`1px solid ${C.border}`, borderRadius:12, padding:20 }}>
               <h3 style={{ color:C.textPrimary, fontSize:14, margin:'0 0 16px' }}>Project Categories <span style={{ color:C.textMuted, fontSize:10, fontWeight:'normal' }}>(DePIN Pulse)</span></h3>
               <div style={{ display:'flex', gap:24, alignItems:'center' }}>
-                <div style={{ width:180, height:180, flexShrink:0 }}><ResponsiveContainer><PieChart><Pie data={CATEGORIES.map((c,i) => ({ ...c, value: 1 }))} cx="50%" cy="50%" innerRadius={40} outerRadius={70} dataKey="value" strokeWidth={0}>{CATEGORIES.map((e,i) => <Cell key={i} fill={e.color} />)}</Pie></PieChart></ResponsiveContainer></div>
+                <div style={{ width:180, height:180, minWidth:180, minHeight:180, flexShrink:0 }}><ResponsiveContainer width="100%" height="100%"><PieChart><Pie data={CATEGORIES.map((c,i) => ({ ...c, value: 1 }))} cx="50%" cy="50%" innerRadius={40} outerRadius={70} dataKey="value" strokeWidth={0}>{CATEGORIES.map((e,i) => <Cell key={i} fill={e.color} />)}</Pie></PieChart></ResponsiveContainer></div>
                 <div style={{ flex:1, display:'flex', flexDirection:'column', gap:10, justifyContent:'center' }}>{CATEGORIES.map(c => (<div key={c.name} style={{ display:'flex', alignItems:'center', gap:10 }}><div style={{ width:12, height:12, borderRadius:6, background:c.color }} /><span style={{ color:C.textSecondary, fontSize:14 }}>{c.name}</span></div>))}</div>
               </div>
             </div>

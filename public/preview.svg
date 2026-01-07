@@ -1,0 +1,40 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e17"/>
+      <stop offset="100%" style="stop-color:#1a2234"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1000" cy="315" r="200" fill="#111827" stroke="#2d3748" stroke-width="2"/>
+  <circle cx="1000" cy="315" r="140" fill="none" stroke="#8b5cf6" stroke-width="28" stroke-dasharray="220 440"/>
+  <circle cx="1000" cy="315" r="140" fill="none" stroke="#10b981" stroke-width="28" stroke-dasharray="146 514" stroke-dashoffset="-220"/>
+  <circle cx="1000" cy="315" r="140" fill="none" stroke="#06b6d4" stroke-width="28" stroke-dasharray="73 587" stroke-dashoffset="-366"/>
+  <circle cx="1000" cy="315" r="140" fill="none" stroke="#f59e0b" stroke-width="28" stroke-dasharray="44 616" stroke-dashoffset="-439"/>
+  <circle cx="1000" cy="315" r="90" fill="#1a2234"/>
+  <text x="1000" y="308" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="18">LIVE DATA</text>
+  <text x="1000" y="338" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">DePIN</text>
+
+  <!-- Main title -->
+  <text x="80" y="220" fill="#06b6d4" font-family="system-ui, sans-serif" font-size="24" font-weight="600">SECTOR INTELLIGENCE</text>
+  <text x="80" y="290" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="64" font-weight="bold">DePIN</text>
+  <text x="80" y="360" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="64" font-weight="bold">Dashboard</text>
+
+  <!-- Description -->
+  <text x="80" y="420" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="24">Live market data for Decentralized Physical</text>
+  <text x="80" y="455" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="24">Infrastructure tokens, prices, and benchmarks</text>
+
+  <!-- Category legend -->
+  <rect x="80" y="520" width="16" height="16" rx="4" fill="#8b5cf6"/>
+  <text x="104" y="534" fill="#64748b" font-family="system-ui, sans-serif" font-size="18">Compute</text>
+  <rect x="200" y="520" width="16" height="16" rx="4" fill="#10b981"/>
+  <text x="224" y="534" fill="#64748b" font-family="system-ui, sans-serif" font-size="18">Storage</text>
+  <rect x="320" y="520" width="16" height="16" rx="4" fill="#06b6d4"/>
+  <text x="344" y="534" fill="#64748b" font-family="system-ui, sans-serif" font-size="18">Wireless</text>
+  <rect x="440" y="520" width="16" height="16" rx="4" fill="#f59e0b"/>
+  <text x="464" y="534" fill="#64748b" font-family="system-ui, sans-serif" font-size="18">IoT</text>
+  <rect x="520" y="520" width="16" height="16" rx="4" fill="#ec4899"/>
+  <text x="544" y="534" fill="#64748b" font-family="system-ui, sans-serif" font-size="18">Sensors</text>
+</svg>
